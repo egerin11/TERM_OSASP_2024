@@ -1,0 +1,4 @@
+sudo systemctl start sshd 
+sudo systemctl start rsync.service
+ ip address
+ rsync -avzhlHl /home/egerin/OSISP/OSISP/term_test/ creep@192.168.0.82:/home/creep/test/
